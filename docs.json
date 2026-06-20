@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "luma",
+  "theme": "maple",
   "name": "Revont",
   "description": "AI Call Assistant for Sales — real-time guidance, automatic summaries, and CRM sync for every call.",
   "colors": {
@@ -8,12 +8,15 @@
     "light": "#ffffff",
     "dark": "#ffffff"
   },
-  "favicon": "/favicon.ico",
+  "favicon": {
+    "light": "/images/Revont-01-white.svg",
+    "dark": "/images/Revont-01.svg"
+  },
   "icons": {
-    "library": "lucide"
+    "library": "fontawesome"
   },
   "styling": {
-    "eyebrows": "breadcrumbs"
+    "eyebrows": "section"
   },
   "contextual": {
     "options": ["copy", "view", "assistant"]
@@ -100,8 +103,25 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/revontai",
-      "linkedin": "https://linkedin.com/company/revont"
+      "instagram": "https://www.instagram.com/revont.ai"
     }
+  },
+  "logo": {
+    "light": "/images/Revont-01-white.svg",
+    "dark": "/images/Revont-01.svg",
+    "href": "https://revont.ai"
+  },
+  "background": {
+    "color": {
+      "light": "#121212",
+      "dark": "#121212"
+    }
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "fonts": {
+    "family": "Inter"
   }
 }
