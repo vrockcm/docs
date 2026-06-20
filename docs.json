@@ -90,6 +90,12 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Changelog",
+        "pages": [
+          "product-updates"
+        ]
       }
     ]
   },
